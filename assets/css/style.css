@@ -1,0 +1,43 @@
+/* :root {
+
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    /* ignore padding in the overall width */
+    /* box-sizing: border-box; */
+}
+
+/* page-border class will be used to create a large border around index page in full size views */
+/* .page-border {
+    margin: 0;
+} */
+
+header {
+    /* display: block; */
+    /* width: 100%; */
+    /* justify-content: center; */
+    margin-top: 25px;
+    border-bottom: 2px solid black;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header nav ul{
+    text-align: center;
+    padding: 15px 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
