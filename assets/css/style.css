@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     /* ignore padding in the overall width */
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 /* page-border class will be used to create a large border around index page in full size views */
@@ -40,4 +40,46 @@ header nav ul{
     justify-content: space-around;
     align-items: center;
     list-style: none;
+}
+
+.projects {
+    width: 95%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+}
+
+.project-card {
+    align-items: center;
+    margin: 10px 10px;
+    border: 1px solid black;
+}
+
+.project-card img {
+    height: 200px;
+    width: 100%;
+    border: 1px solid pink;
+    border-radius: 10px;
+}
+
+.project-card-info {
+    margin: 10px;
+    border: 1px solid green;
+}
+
+.project-card-info span {
+    font-weight: bold;
+}
+
+.project-link-icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link-icon {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    background-color: lightblue;
 }
