@@ -9,6 +9,16 @@
     box-sizing: border-box;
 }
 
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact-link-icon > a {
+    text-decoration: none;
+    color: #1e3050;
+}
+
 /* page-border class will be used to create a large border around index page in full size views */
 /* .page-border {
     margin: 0;
@@ -82,4 +92,31 @@ header nav ul{
     width: 50px;
     margin: 5px;
     background-color: lightblue;
+}
+
+.contact-links {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-link-set {
+    border: 1px solid lightpink;
+    height: 150px;
+    width: 80vw;
+    text-align: center;
+}
+
+.contact-link-set p {
+    margin: 5px 0px;
+}
+
+.contact-link-set span {
+    font-weight: bold;
+}
+
+.contact-link-icon {
+    text-align: center;
 }
