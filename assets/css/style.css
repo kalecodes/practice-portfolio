@@ -144,3 +144,17 @@ header nav ul{
 .contact-link-icon {
     text-align: center;
 }
+
+/* ----------- MEDIA QUERIES FOR LARGER SCREENS --------------- */
+
+@media screen and (min-width: 575px) {
+    
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 980px) {
+
+}
