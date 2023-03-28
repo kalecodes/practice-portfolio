@@ -52,6 +52,21 @@ header nav ul{
     list-style: none;
 }
 
+.about-section {
+    width: 100%;
+}
+
+.headshot-div {
+    width: 100%;
+    text-align: center;
+}
+
+.headshot {
+    height: auto;
+    width: 60vw;
+    margin: 10px;
+}
+
 .projects {
     width: 95%;
     margin: 20px auto;
