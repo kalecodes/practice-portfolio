@@ -67,6 +67,15 @@ header nav ul{
     margin: 10px;
 }
 
+.about-text {
+    margin: 10px;
+    padding: 5px;
+}
+
+.about-text span {
+    font-weight: bold;
+}
+
 .projects {
     width: 95%;
     margin: 20px auto;
